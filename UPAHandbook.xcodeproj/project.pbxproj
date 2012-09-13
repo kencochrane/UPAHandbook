@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* UPAHandbookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* UPAHandbookAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		BE08026A0FB745A5001526DD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0802690FB745A5001526DD /* icon.png */; };
+		BE29C83D0F76B48C00DD5ADA /* ChapterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE29C83C0F76B48C00DD5ADA /* ChapterViewController.xib */; };
+		BE29C8400F76B4C400DD5ADA /* Chapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C83F0F76B4C400DD5ADA /* Chapter.m */; };
+		BE29C8430F76B4E100DD5ADA /* ChapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C8420F76B4E100DD5ADA /* ChapterViewController.m */; };
+		BE3BB39312870C6600927D22 /* UPA_Handbook_0_3.rsd in Resources */ = {isa = PBXBuildFile; fileRef = BE3BB39212870C6600927D22 /* UPA_Handbook_0_3.rsd */; };
+		BE87B66B0FE479B0005576C3 /* InfoPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE87B6690FE479B0005576C3 /* InfoPageViewController.m */; };
+		BE87B66C0FE479B0005576C3 /* InfoPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE87B66A0FE479B0005576C3 /* InfoPageViewController.xib */; };
+		BE87B6AC0FE48585005576C3 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = BE87B6AB0FE48585005576C3 /* up.png */; };
+		BE87B6AE0FE4858C005576C3 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = BE87B6AD0FE4858C005576C3 /* down.png */; };
+		BE87B8AC0FE5EA71005576C3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE87B8AB0FE5EA71005576C3 /* Localizable.strings */; };
+		BEECF4720FD3400F003FAAD9 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEECF4710FD3400F003FAAD9 /* CustomCell.m */; };
+		BEECF4740FD3402C003FAAD9 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEECF4730FD3402C003FAAD9 /* CustomCell.xib */; };
+		BEECF4BB0FD35DFC003FAAD9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BEECF4BA0FD35DFC003FAAD9 /* Default.png */; };
+		BEFBFD1C160167A300F57BAC /* libFlurryAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFBFD1B160167A300F57BAC /* libFlurryAnalytics.a */; };
+		BEFBFD1E16016ECE00F57BAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFBFD1D16016ECE00F57BAC /* Foundation.framework */; };
+		BEFBFD2016016EDE00F57BAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFBFD1F16016EDE00F57BAC /* UIKit.framework */; };
+		BEFBFD2216016EE400F57BAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFBFD2116016EE400F57BAC /* CoreGraphics.framework */; };
+		BEFBFD2416016F0300F57BAC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFBFD2316016F0300F57BAC /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D3623240D0F684500981E51 /* UPAHandbookAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAHandbookAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* UPAHandbookAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPAHandbookAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* UPAHandbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UPAHandbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* UPAHandbook_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAHandbook_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0802690FB745A5001526DD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		BE29C83C0F76B48C00DD5ADA /* ChapterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChapterViewController.xib; sourceTree = "<group>"; };
+		BE29C83E0F76B4C400DD5ADA /* Chapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter.h; sourceTree = "<group>"; };
+		BE29C83F0F76B4C400DD5ADA /* Chapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter.m; sourceTree = "<group>"; };
+		BE29C8410F76B4E100DD5ADA /* ChapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterViewController.h; sourceTree = "<group>"; };
+		BE29C8420F76B4E100DD5ADA /* ChapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterViewController.m; sourceTree = "<group>"; };
+		BE3BB39212870C6600927D22 /* UPA_Handbook_0_3.rsd */ = {isa = PBXFileReference; lastKnownFileType = file; path = UPA_Handbook_0_3.rsd; sourceTree = "<group>"; };
+		BE87B6680FE479B0005576C3 /* InfoPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoPageViewController.h; sourceTree = "<group>"; };
+		BE87B6690FE479B0005576C3 /* InfoPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoPageViewController.m; sourceTree = "<group>"; };
+		BE87B66A0FE479B0005576C3 /* InfoPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = InfoPageViewController.xib; path = Classes/InfoPageViewController.xib; sourceTree = "<group>"; };
+		BE87B6AB0FE48585005576C3 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		BE87B6AD0FE4858C005576C3 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		BE87B8A80FE5EA36005576C3 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BEECF4700FD3400F003FAAD9 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		BEECF4710FD3400F003FAAD9 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		BEECF4730FD3402C003FAAD9 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		BEECF4BA0FD35DFC003FAAD9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BEFBFD1A160167A300F57BAC /* FlurryAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAnalytics.h; sourceTree = "<group>"; };
+		BEFBFD1B160167A300F57BAC /* libFlurryAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAnalytics.a; sourceTree = "<group>"; };
+		BEFBFD1D16016ECE00F57BAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BEFBFD1F16016EDE00F57BAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BEFBFD2116016EE400F57BAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		BEFBFD2316016F0300F57BAC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/lib/libsqlite3.dylib; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFBFD2416016F0300F57BAC /* libsqlite3.dylib in Frameworks */,
+				BEFBFD2216016EE400F57BAC /* CoreGraphics.framework in Frameworks */,
+				BEFBFD2016016EDE00F57BAC /* UIKit.framework in Frameworks */,
+				BEFBFD1E16016ECE00F57BAC /* Foundation.framework in Frameworks */,
+				BEFBFD1C160167A300F57BAC /* libFlurryAnalytics.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* UPAHandbookAppDelegate.h */,
+				1D3623250D0F684500981E51 /* UPAHandbookAppDelegate.m */,
+				BE29C83E0F76B4C400DD5ADA /* Chapter.h */,
+				BE29C83F0F76B4C400DD5ADA /* Chapter.m */,
+				BE29C8410F76B4E100DD5ADA /* ChapterViewController.h */,
+				BE29C8420F76B4E100DD5ADA /* ChapterViewController.m */,
+				BEECF4700FD3400F003FAAD9 /* CustomCell.h */,
+				BEECF4710FD3400F003FAAD9 /* CustomCell.m */,
+				BE87B6680FE479B0005576C3 /* InfoPageViewController.h */,
+				BE87B6690FE479B0005576C3 /* InfoPageViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* UPAHandbook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				BEFBFD2316016F0300F57BAC /* libsqlite3.dylib */,
+				BEFBFD2116016EE400F57BAC /* CoreGraphics.framework */,
+				BEFBFD1F16016EDE00F57BAC /* UIKit.framework */,
+				BEFBFD1D16016ECE00F57BAC /* Foundation.framework */,
+				BE87B6A20FE48402005576C3 /* images */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				BEFBFD19160167A300F57BAC /* FlurryAnalytics */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* UPAHandbook_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE87B8AB0FE5EA71005576C3 /* Localizable.strings */,
+				BE87B66A0FE479B0005576C3 /* InfoPageViewController.xib */,
+				BEECF4BA0FD35DFC003FAAD9 /* Default.png */,
+				BE3BB39212870C6600927D22 /* UPA_Handbook_0_3.rsd */,
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				BE0802690FB745A5001526DD /* icon.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				BE29C83C0F76B48C00DD5ADA /* ChapterViewController.xib */,
+				BEECF4730FD3402C003FAAD9 /* CustomCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BE87B6A20FE48402005576C3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BE87B6AD0FE4858C005576C3 /* down.png */,
+				BE87B6AB0FE48585005576C3 /* up.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		BEFBFD19160167A300F57BAC /* FlurryAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				BEFBFD1A160167A300F57BAC /* FlurryAnalytics.h */,
+				BEFBFD1B160167A300F57BAC /* libFlurryAnalytics.a */,
+			);
+			path = FlurryAnalytics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* UPAHandbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "UPAHandbook" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UPAHandbook;
+			productName = UPAHandbook;
+			productReference = 1D6058910D05DD3D006BFB54 /* UPAHandbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UPAHandbook" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* UPAHandbook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				BE29C83D0F76B48C00DD5ADA /* ChapterViewController.xib in Resources */,
+				BE08026A0FB745A5001526DD /* icon.png in Resources */,
+				BEECF4740FD3402C003FAAD9 /* CustomCell.xib in Resources */,
+				BEECF4BB0FD35DFC003FAAD9 /* Default.png in Resources */,
+				BE87B66C0FE479B0005576C3 /* InfoPageViewController.xib in Resources */,
+				BE87B6AC0FE48585005576C3 /* up.png in Resources */,
+				BE87B6AE0FE4858C005576C3 /* down.png in Resources */,
+				BE87B8AC0FE5EA71005576C3 /* Localizable.strings in Resources */,
+				BE3BB39312870C6600927D22 /* UPA_Handbook_0_3.rsd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* UPAHandbookAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				BE29C8400F76B4C400DD5ADA /* Chapter.m in Sources */,
+				BE29C8430F76B4E100DD5ADA /* ChapterViewController.m in Sources */,
+				BEECF4720FD3400F003FAAD9 /* CustomCell.m in Sources */,
+				BE87B66B0FE479B0005576C3 /* InfoPageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE87B8AB0FE5EA71005576C3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE87B8A80FE5EA36005576C3 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UPAHandbook_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FlurryLib\"",
+					"\"$(SRCROOT)/FlurryAnalytics\"",
+				);
+				PRODUCT_NAME = UPAHandbook;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UPAHandbook_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FlurryLib\"",
+					"\"$(SRCROOT)/FlurryAnalytics\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = UPAHandbook;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BE5F438F0FD6279A009A8AE0 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Zanbow Inc.";
+				CURRENT_PROJECT_VERSION = 0.3;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "390031C7-27B3-44A8-A79E-D82C45DC1480";
+				SDKROOT = iphonesimulator4.0;
+			};
+			name = Distribution;
+		};
+		BE5F43900FD6279A009A8AE0 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UPAHandbook_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FlurryLib\"",
+					"\"$(SRCROOT)/FlurryAnalytics\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = UPAHandbook;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "UPAHandbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				BE5F43900FD6279A009A8AE0 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UPAHandbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				BE5F438F0FD6279A009A8AE0 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
