@@ -8,7 +8,7 @@ Background
 ==========
 I wrote this as my very first iPhone app, back when they first started letting you develop apps for the iPhone, back in the iPhone 1 days.
 
-This is code very ugly and needs a lot of TLC. I have only touched it once since I released 3+ years ago, and that was to fix and
+This is code very ugly, and needs a lot of TLC. I have only touched it once since I released it 3+ years ago, and that was to fix an
 issue with flurry and to upload it here. 
 
 I know the code is bad, but it does what it needs to do, so instead of telling me how bad it is, show me, by fixing the code.
