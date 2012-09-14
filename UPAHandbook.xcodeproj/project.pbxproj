@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,11 @@
 		BE29C8400F76B4C400DD5ADA /* Chapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C83F0F76B4C400DD5ADA /* Chapter.m */; };
 		BE29C8430F76B4E100DD5ADA /* ChapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE29C8420F76B4E100DD5ADA /* ChapterViewController.m */; };
 		BE3BB39312870C6600927D22 /* UPA_Handbook_0_3.rsd in Resources */ = {isa = PBXBuildFile; fileRef = BE3BB39212870C6600927D22 /* UPA_Handbook_0_3.rsd */; };
+		BE5333871602B62600DDE95C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE5333861602B62600DDE95C /* Default-568h@2x.png */; };
+		BE5333891602BA0300DDE95C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5333881602BA0300DDE95C /* libsqlite3.dylib */; };
+		BE53338B1602BA0E00DDE95C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE53338A1602BA0E00DDE95C /* CoreGraphics.framework */; };
+		BE53338D1602BA1600DDE95C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE53338C1602BA1600DDE95C /* UIKit.framework */; };
+		BE53338F1602BA1F00DDE95C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE53338E1602BA1F00DDE95C /* Foundation.framework */; };
 		BE87B66B0FE479B0005576C3 /* InfoPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE87B6690FE479B0005576C3 /* InfoPageViewController.m */; };
 		BE87B66C0FE479B0005576C3 /* InfoPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE87B66A0FE479B0005576C3 /* InfoPageViewController.xib */; };
 		BE87B6AC0FE48585005576C3 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = BE87B6AB0FE48585005576C3 /* up.png */; };
@@ -26,10 +31,6 @@
 		BEECF4740FD3402C003FAAD9 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEECF4730FD3402C003FAAD9 /* CustomCell.xib */; };
 		BEECF4BB0FD35DFC003FAAD9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BEECF4BA0FD35DFC003FAAD9 /* Default.png */; };
 		BEFBFD1C160167A300F57BAC /* libFlurryAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFBFD1B160167A300F57BAC /* libFlurryAnalytics.a */; };
-		BEFBFD1E16016ECE00F57BAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFBFD1D16016ECE00F57BAC /* Foundation.framework */; };
-		BEFBFD2016016EDE00F57BAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFBFD1F16016EDE00F57BAC /* UIKit.framework */; };
-		BEFBFD2216016EE400F57BAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFBFD2116016EE400F57BAC /* CoreGraphics.framework */; };
-		BEFBFD2416016F0300F57BAC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFBFD2316016F0300F57BAC /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,11 @@
 		BE29C8410F76B4E100DD5ADA /* ChapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterViewController.h; sourceTree = "<group>"; };
 		BE29C8420F76B4E100DD5ADA /* ChapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterViewController.m; sourceTree = "<group>"; };
 		BE3BB39212870C6600927D22 /* UPA_Handbook_0_3.rsd */ = {isa = PBXFileReference; lastKnownFileType = file; path = UPA_Handbook_0_3.rsd; sourceTree = "<group>"; };
+		BE5333861602B62600DDE95C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BE5333881602BA0300DDE95C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/lib/libsqlite3.dylib; sourceTree = DEVELOPER_DIR; };
+		BE53338A1602BA0E00DDE95C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		BE53338C1602BA1600DDE95C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE53338E1602BA1F00DDE95C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		BE87B6680FE479B0005576C3 /* InfoPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoPageViewController.h; sourceTree = "<group>"; };
 		BE87B6690FE479B0005576C3 /* InfoPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoPageViewController.m; sourceTree = "<group>"; };
 		BE87B66A0FE479B0005576C3 /* InfoPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = InfoPageViewController.xib; path = Classes/InfoPageViewController.xib; sourceTree = "<group>"; };
@@ -62,10 +68,6 @@
 		BEECF4BA0FD35DFC003FAAD9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BEFBFD1A160167A300F57BAC /* FlurryAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAnalytics.h; sourceTree = "<group>"; };
 		BEFBFD1B160167A300F57BAC /* libFlurryAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAnalytics.a; sourceTree = "<group>"; };
-		BEFBFD1D16016ECE00F57BAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		BEFBFD1F16016EDE00F57BAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BEFBFD2116016EE400F57BAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		BEFBFD2316016F0300F57BAC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/lib/libsqlite3.dylib; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +75,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEFBFD2416016F0300F57BAC /* libsqlite3.dylib in Frameworks */,
-				BEFBFD2216016EE400F57BAC /* CoreGraphics.framework in Frameworks */,
-				BEFBFD2016016EDE00F57BAC /* UIKit.framework in Frameworks */,
-				BEFBFD1E16016ECE00F57BAC /* Foundation.framework in Frameworks */,
+				BE53338F1602BA1F00DDE95C /* Foundation.framework in Frameworks */,
+				BE53338D1602BA1600DDE95C /* UIKit.framework in Frameworks */,
+				BE53338B1602BA0E00DDE95C /* CoreGraphics.framework in Frameworks */,
+				BE5333891602BA0300DDE95C /* libsqlite3.dylib in Frameworks */,
 				BEFBFD1C160167A300F57BAC /* libFlurryAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,10 +116,11 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				BEFBFD2316016F0300F57BAC /* libsqlite3.dylib */,
-				BEFBFD2116016EE400F57BAC /* CoreGraphics.framework */,
-				BEFBFD1F16016EDE00F57BAC /* UIKit.framework */,
-				BEFBFD1D16016ECE00F57BAC /* Foundation.framework */,
+				BE53338E1602BA1F00DDE95C /* Foundation.framework */,
+				BE53338C1602BA1600DDE95C /* UIKit.framework */,
+				BE53338A1602BA0E00DDE95C /* CoreGraphics.framework */,
+				BE5333881602BA0300DDE95C /* libsqlite3.dylib */,
+				BE5333861602B62600DDE95C /* Default-568h@2x.png */,
 				BE87B6A20FE48402005576C3 /* images */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -197,8 +200,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UPAHandbook" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -233,6 +239,7 @@
 				BE87B6AE0FE4858C005576C3 /* down.png in Resources */,
 				BE87B8AC0FE5EA71005576C3 /* Localizable.strings in Resources */,
 				BE3BB39312870C6600927D22 /* UPA_Handbook_0_3.rsd in Resources */,
+				BE5333871602B62600DDE95C /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +284,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = UPAHandbook_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/FlurryLib\"",
@@ -297,7 +304,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = UPAHandbook_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/FlurryLib\"",
@@ -315,12 +322,11 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Zanbow Inc.";
-				CURRENT_PROJECT_VERSION = 0.3;
+				CURRENT_PROJECT_VERSION = 0.4;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "390031C7-27B3-44A8-A79E-D82C45DC1480";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1EE6F5B3-A8FE-46B0-827B-EB6FC95E4B03";
 				SDKROOT = iphonesimulator4.0;
 			};
 			name = Distribution;
@@ -329,11 +335,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Zanbow Inc.";
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 0.4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = UPAHandbook_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/FlurryLib\"",
@@ -341,6 +349,7 @@
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = UPAHandbook;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1EE6F5B3-A8FE-46B0-827B-EB6FC95E4B03";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -355,7 +364,6 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PREBINDING = NO;
 				SDKROOT = iphonesimulator4.0;
 			};
 			name = Debug;
@@ -364,11 +372,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Zanbow Inc.";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1EE6F5B3-A8FE-46B0-827B-EB6FC95E4B03";
 				SDKROOT = iphonesimulator4.0;
 			};
 			name = Release;
